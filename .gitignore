@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Heavy data
+data/densepose-out/
+data/densepose_raw/
+*.png
+*.zip
+!docs/**
+
+outputs/models/*.pt
+outputs/models/*.pth
+outputs/logs/
+
+.DS_Store
+.idea/
+.vscode/
